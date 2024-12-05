@@ -1,0 +1,67 @@
+.contact-container {
+  background-color: #000;
+  color: white;
+  padding: 50px;
+}
+
+.contact-content {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between; /* Agar ada jarak antara kolom */
+  align-items: flex-start; /* Untuk memastikan konten sejajar di atas */
+  gap: 100px; /* Jarak antara kolom */
+}
+
+.contact-info {
+  flex: 1; /* Ukuran kolom kiri */
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.contact-form {
+  flex: 1.5; /* Ukuran kolom kanan */
+  background-color: #fff4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 15px;
+  background: transparent;
+  color: black; /* Warna teks input */
+  border: 1px solid #ccc;
+}
+
+.contact-form .form-control::placeholder {
+  color: #999; /* Warna placeholder */
+}
+
+.contact-form .btn-submit {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.map-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 10px;
+}

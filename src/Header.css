@@ -1,0 +1,65 @@
+/* Navbar Styling */
+.navbar-transparent {
+  background-color: transparent !important; /* Navbar transparan */
+  position: fixed; /* Posisi di atas hero-section */
+  top: 0;
+  width: 100%; /* Pastikan lebar penuh */
+  z-index: 10; /* Supaya di depan elemen lain */
+  padding: 15px 30px; /* Tambahkan padding atas & kiri/kanan */
+}
+
+/* Styling untuk logo */
+.navbar-logo {
+  color: white !important; /* Warna logo putih */
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 50px; /* Berikan jarak dari nav link */
+}
+
+/* Styling untuk nav-link */
+.navbar-transparent .nav-link {
+  color: white !important; /* Teks link putih */
+  font-weight: 500;
+  margin: 0 10px; /* Tambahkan jarak antar link */
+  transition: color 0.3s ease;
+}
+
+.navbar-transparent .nav-link:hover {
+  color: #ddd !important; /* Ubah warna teks saat hover */
+}
+
+/* Tombol Discover More */
+.btn-discover-more {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent; /* Transparan */
+}
+
+.btn-discover-more:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* Jarak antar elemen di kanan */
+.nav-right-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 15px; /* Jarak antar tombol */
+  padding-right: 160px; /* Tambahkan padding kanan */
+}
+
+/* Styling untuk membuat navbar lebih rapi */
+.ml-auto {
+  font-size: 18px;
+  margin-top: 5px; /* Sedikit jarak atas */
+}
+
+/* Tambahkan margin atas pada navbar */
+.navbar-transparent {
+  margin-top: 10px;
+}

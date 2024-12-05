@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.project-page {
+    background-color: #000000;
+    margin-top: 70px;
+    padding: 0;
+}
+
+/* Header Section */
+.project-header {
+    text-align: center;
+    padding: 80px;
+    background-color: #000000;
+}
+
+
+.project-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 1.5;
+}
+
+.project-header p {
+    font-size: 16px;
+    color: #aaaaaa;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.btn-about{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.btn-get-started {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-discover-more {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+}
+
+/* Accordion Section */
+.accordion-container {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.accordion-item .accordion-header {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.accordion-item .accordion-body {
+    background-color: #f8f8f8;
+    color: #333333;
+    padding: 20px;
+}
+
+.accordion-item.highlighted .accordion-header {
+    background-color: #e63946;
+    color: #ffffff;
+}
+
+.accordion-item .image-placeholder {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666666;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-header h1 {
+        font-size: 28px;
+    }
+
+    .accordion-container {
+        padding: 20px;
+    }
+
+    .header-buttons .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

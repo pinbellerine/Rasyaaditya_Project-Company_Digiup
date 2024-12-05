@@ -1,0 +1,91 @@
+/* Container fluid pada hero-section */
+.hero-section {
+    width: 100vw; /* Pastikan lebar penuh */
+    overflow-x: hidden;
+    margin: 0; /* Hilangkan margin */
+    padding: 0; /* Hilangkan padding */
+    box-sizing: border-box; /* Terapkan ukuran total elemen */
+}
+
+.navbar-brand {
+    padding-left: 20px; /* Atur jarak kiri */
+}
+
+.hero-text {
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+.hero-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Input Email */
+.email-input {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 30px;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button */
+.cta-button {
+    background-color: #ff6f61;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    background-color: #ff503d;
+    transition: all 0.3s ease;
+}
+
+/* User Count Section */
+.user-count .profile-pictures {
+    display: flex;
+    margin-right: 10px;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -10px; /* Overlap effect */
+}
+
+.user-count span {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.container-home{
+    width: 100vh;
+}
+
+
